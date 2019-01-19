@@ -97,7 +97,7 @@ class PrimarySearchAppBar extends React.Component {
   handleProfileMenuOpen = event => {
     this.setState({ anchorEl: event.currentTarget });
   };
-  
+
   handleMenuClose = () => {
     this.setState({ anchorEl: null });
     this.handleMobileMenuClose();
