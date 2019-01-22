@@ -11,7 +11,6 @@ const styles = theme => ({
     flexGrow: 2,
   },
   paper: {
-
     padding: theme.spacing.unit * 2,
     textAlign: 'center',
     color: theme.palette.text.secondary,
@@ -22,6 +21,7 @@ function Body(props) {
   const { classes } = props;
 
   return (
+    <div className="DashboardCards" >
     <div className={classes.root}>
       <Grid container spacing={24}>
         <Grid item xs>
@@ -63,6 +63,7 @@ function Body(props) {
         </Paper>
       </Grid>
       </Grid>
+    </div>
     </div>
   );
 }

@@ -7,9 +7,8 @@
   height: 40vmin;
 }
 .body{
-  padding-left: 20px;
-  padding-top: 40px;
-  
+  padding: 15px 45px;
+
 }
 .App-header {
   background-color: #282c34;
@@ -33,4 +32,15 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+
+.TitleHeader{
+  color: #111;
+   font-family: 'Helvetica Neue', sans-serif;
+   font-size: 27px;
+   font-weight: bold;
+    letter-spacing: -1px;
+     line-height: 1;
+     text-align: center;
 }
